@@ -7,5 +7,9 @@ export const en: LocaleType = {
     statistics: 'Statistics',
     userList: 'Users list',
   },
+  paginator: {
+    onPage: 'onPage',
+    show: 'show',
+  },
   signIn: 'Sign In',
 }

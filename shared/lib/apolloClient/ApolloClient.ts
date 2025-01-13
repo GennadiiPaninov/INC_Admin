@@ -8,13 +8,12 @@ const httpLink = createHttpLink({
 })
 
 const authLink = setContext((_, { headers, hookToken }) => {
-  console.log(hookToken)
   const token = loadFromSessionStorage(authSetting.authToken)
 
   return {
     headers: {
       ...headers,
-      authorization: token ? `Basic ${token}` : '',
+      Authorization: token ? token : '',
     },
   }
 })

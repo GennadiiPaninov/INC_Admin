@@ -1,0 +1,29 @@
+.tableMenu:hover  {
+  svg path{
+    fill: var(--color-accent-500);
+  }
+}
+.tableMenuItem{
+  padding: 0;
+}
+.tableMenuItem:hover{
+  background-color:unset;
+}
+.tableMenuItem button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.tableMenuItem button:hover {
+  svg path {
+    fill: var(--color-accent-500);
+    stroke:var(--color-accent-500);
+  }
+  span{
+    color: var(--color-accent-500);
+  }
+
+}
+.modalSpace{
+  width: 378px;
+}

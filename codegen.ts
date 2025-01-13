@@ -16,7 +16,7 @@ const config: CodegenConfig = {
     },
     'entities/types.ts': { plugins: ['typescript'] },
   },
-  ignoreNoDocuments: true, // for better experience with the watcher
+  ignoreNoDocuments: true,
   schema: 'https://inctagram.org/api/v1/graphql',
 }
 

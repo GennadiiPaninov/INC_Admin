@@ -5,6 +5,10 @@ export const ru = {
     statistics: 'Статистика',
     userList: 'Список пользователей',
   },
+  paginator: {
+    onPage: 'на странице',
+    show: 'показать',
+  },
   signIn: 'Войти',
 }
 

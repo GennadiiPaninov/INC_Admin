@@ -9,7 +9,7 @@ import { useRouter } from 'next/router'
 
 export const WithNavigate: FC<PropsWithChildren<{}>> = ({ children }) => {
   const { pathname, push } = useRouter()
-  const [isAuth, setIsAuth] = useState<boolean | null>(null)
+  const [isAuth, setIsAuth] = useState<any | null>(null)
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {

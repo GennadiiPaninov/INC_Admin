@@ -20,6 +20,7 @@ export const AdminLayout: NextPage<PropsWithChildren> = props => {
     </div>
   )
 }
+
 export const getAdminLayout = (page: ReactElement) => {
   return <AdminLayout>{page}</AdminLayout>
 }

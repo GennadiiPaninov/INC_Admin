@@ -80,7 +80,11 @@ export const Select = forwardRef<ElementRef<typeof SelectRadix.Root>, SelectType
             </Typography>
           )}
           <SelectRadix.Trigger aria-label={label} className={classNames.SelectTrigger}>
-            <SelectRadix.Value ref={ref} />
+            <SelectRadix.Value ref={ref}>
+              <Typography variant={'regular_text-16'}>
+                {defaultValue ? defaultValue : value}
+              </Typography>
+            </SelectRadix.Value>
             {open ? (
               <SelectRadix.Icon className={s.SelectIcon}>
                 <ChevronUpIcon />

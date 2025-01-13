@@ -1,0 +1,21 @@
+.rootUsersListForm{
+  background-color: inherit;
+  border: none;
+  max-width: unset;
+  max-height: max-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 94px;
+  padding: 0 0 24px 0;
+}
+.usersListInput{
+  width: 100%;
+  margin: 0;
+}
+
+.usersListSelector{
+  width: 234px;
+}

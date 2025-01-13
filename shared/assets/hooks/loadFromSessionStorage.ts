@@ -6,7 +6,7 @@ export const loadFromSessionStorage = (value: string) => {
       return false
     }
 
-    return !!data
+    return data
   } catch (e) {
     console.log(e)
 
